@@ -1,0 +1,158 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    line-height: 1.5;
+}
+*,:after,:before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #CCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px -1px #999;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #344264;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 210px;
+    text-align: center;
+    box-shadow: 0 0 5px -1px #999;
+}
+
+nav a:hover {
+    background-color: #000;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-left: 250px;
+}
+
+.title-page {
+    background-color: #EEE;
+    color: #344264;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.alerts {
+    margin: 0 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px;
+}
+
+input,
+select {
+    border: 1px solid #353535;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 5px 0 15px;
+    width: 450px;
+}
+
+input[type=submit] {
+    background-color: #344264;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box {
+    margin: 0 25px;
+    height: 100vh;
+}
+
+.box-head {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid #344264;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table th {
+    background-color: #344264;
+    color: white;
+}
+
+.pessoa_fisica {
+    display: none;
+    flex-direction: column;
+}
+
+.alert {
+    list-style: none;
+    background-color: #fff8c3;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 453px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+/* table thead {
+    background-color: #353535;
+    color: #FFF;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
